@@ -1,0 +1,78 @@
+
+  @font-face {
+    font-family: myFirstFont;
+    src: url(enigmatic_regular_macroman/Enigma__2-webfont.woff);
+  }
+
+  div {
+    color:white;
+    font-family: myFirstFont;
+    font-size:100%;
+  }
+    
+    div.testcent {
+      font-size: 300%;
+      width:400px;
+      margin: auto;
+      margin-top: 100px;
+    }
+
+  body {
+    background-image: url(background_smaller.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+  
+  div.buttonalign {
+    text-align: center;
+    font-size: 120%;
+  }
+  
+  div.buttonalign_left {
+    text-align: left;
+    font-size: 120%;
+  }
+  
+  div.project_description {
+    display:inline;
+    font-family: myFirstFont;
+    width: 600px; /*300px;*/
+    color: white;
+    font-size: 100%;
+    margin-left: 30px;
+    text-align: left;
+    float:left;
+  }
+  
+  a:link.button, a:visited {
+    font-family: myFirstFont;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    width: 150px;
+  }
+
+  a:hover.button, a:active {
+    background-color: white;
+    color: black;
+  }
+  
+
+  a:link.linkintext
+  {
+    font-family: myFirstFont;
+    color: white;
+    border-style: none;
+    margin-left: none;
+  }
+  a:hover.linkintext
+  {
+    color: lightgray;
+  }
+  
+  
